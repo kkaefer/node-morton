@@ -313,7 +313,7 @@ exports['test morton numbers'] = function() {
     assert.equal(morton(4692557, 6514070), 61707563471481);
     assert.equal(morton(2257638, 2458797), 13359850511542);
     assert.equal(morton(2734275, 2166438), 13483075229741);
-    assert.equal(morton(4772969, 7428662), 64057081601641);    
+    assert.equal(morton(4772969, 7428662), 64057081601641);
     assert.equal(morton(5892187, 10860749), 168654217982439);
     assert.equal(morton(501861, 12630892), 176015524117681);
     assert.equal(morton(2953709, 15986459), 191708711835355);
