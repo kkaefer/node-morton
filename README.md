@@ -28,6 +28,10 @@ Note: input numbers must be smaller than 2^24 (16777216). Since the resulting ou
 
 `morton.range(z, x, y)` will return an array of the lower and upper bound of the Z-order rectangle. See also [Z-order curves](http://en.wikipedia.org/wiki/Z-order_curve) in Wikipedia.
 
+`[x, y] = morton.reverse(c)` reverses `c = morton(x, y)`.
+
+`[x, y] = morton.decode(z, c)` reverses `c = morton.code(z, x, y)`.
+
 # TESTS
 
 [expresso](https://github.com/visionmedia/expresso) is required to run unit tests.
