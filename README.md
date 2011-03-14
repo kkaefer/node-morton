@@ -19,7 +19,7 @@ Note: input numbers must be smaller than 2^24 (16777216). Since the resulting ou
 [expresso](https://github.com/visionmedia/expresso) is required to run unit tests.
 
     npm install expresso
-    make test
+    expresso
 
 
 
