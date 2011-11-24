@@ -14,5 +14,8 @@
     "licenses": [
         { "type": "BSD" }
     ],
+    "devDependencies": {
+        "mocha": "~0.0.4"
+    },
     "main": "./lib/morton"
 }
